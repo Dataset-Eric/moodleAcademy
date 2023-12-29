@@ -17,10 +17,10 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     local_eric
+ * @package     local_greetings
  * @category    string
  * @copyright   eric.wauthion@etnic.be
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
-$string['pluginname'] = 'Test plugin eric';
+$string['pluginname'] = 'Greetings';
