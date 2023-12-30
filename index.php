@@ -33,6 +33,11 @@ echo "<br>" .format_float($grade, 2);
 $messageform = new messageform();
 // Display the form.
 $messageform->display();
-
+if ($data = $messageform->get_data()){
+   $message = required_param('message', PARAM_TEXT);
+   echo $OUTPUT->heading($message,4);
+}else{
+    echo "data vide";
+}
 echo $OUTPUT->footer();
 
