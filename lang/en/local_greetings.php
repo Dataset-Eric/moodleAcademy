@@ -24,3 +24,11 @@
  */
 defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Greetings';
+$string['nom'] = 'Eric Wauthion';
+$string['age'] = 'Age :{$a}';
+$string['greeting'] = 'Greeting, user';
+$string['greetingloggedinuser'] = 'Greeting, {$a}.';
+$string['greetinguserau'] = 'Hello, {$a}.';
+$string['greetinguseres'] = 'Hola, {$a}.';
+$string['greetinguserfj'] = 'Bula, {$a}.';
+$string['greetingusernz'] = 'Kia Ora, {$a}.';
